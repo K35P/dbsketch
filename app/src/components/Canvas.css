@@ -1,0 +1,9 @@
+.canvas {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 56px);
+  background: #f7f8fa;
+  overflow: auto;
+  padding-top: 56px;
+  box-sizing: border-box;
+} 

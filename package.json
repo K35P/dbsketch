@@ -1,0 +1,21 @@
+{
+  "name": "dbsketch",
+  "version": "1.0.0",
+  "description": "DB drawing tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "react:dev": "cd app && npm run dev",
+    "react:build": "cd app && npm run build",
+    "start:prod": "npm run react:build && electron ."
+  },
+  "author": "K35P",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "electron": "^29.0.0"
+  }
+}
