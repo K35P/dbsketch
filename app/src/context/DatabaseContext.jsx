@@ -12,7 +12,7 @@ export function DatabaseProvider({ children }) {
 
   // CRUD tabelle (come prima)
   const addTable = () => {
-    const name = `Tabella${tables.length + 1}`;
+    const name = `Table${tables.length + 1}`;
     setTables([
       ...tables,
       {

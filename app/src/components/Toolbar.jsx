@@ -31,28 +31,28 @@ export default function Toolbar() {
     <header className="toolbar">
       <div className="toolbar-menus">
         <Dropdown label="File">
-          <div className="dropdown-item">Nuovo</div>
-          <div className="dropdown-item">Apri...</div>
-          <div className="dropdown-item">Salva</div>
-          <div className="dropdown-item">Esporta</div>
+          <div className="dropdown-item">New</div>
+          <div className="dropdown-item">Open...</div>
+          <div className="dropdown-item">Save</div>
+          <div className="dropdown-item">Export</div>
         </Dropdown>
-        <Dropdown label="Modifica">
-          <div className="dropdown-item">Annulla</div>
-          <div className="dropdown-item">Ripristina</div>
+        <Dropdown label="Edit">
+          <div className="dropdown-item">Undo</div>
+          <div className="dropdown-item">Redo</div>
         </Dropdown>
-        <Dropdown label="Relazioni">
-          <div className="dropdown-item" onClick={openAddRelation}>Aggiungi relazione</div>
-          <div className="dropdown-item">Gestisci relazioni</div>
+        <Dropdown label="Relations">
+          <div className="dropdown-item" onClick={openAddRelation}>Add relation</div>
+          <div className="dropdown-item">Manage relations</div>
         </Dropdown>
-        <Dropdown label="Aiuto">
-          <div className="dropdown-item">Guida</div>
-          <div className="dropdown-item">Info</div>
+        <Dropdown label="Help">
+          <div className="dropdown-item">Guide</div>
+          <div className="dropdown-item">About</div>
         </Dropdown>
       </div>
       <div className="toolbar-title">DBSketch</div>
       <div className="toolbar-actions">
-        <button onClick={addTable} title="Nuova tabella">+ Tabella</button>
-        <button disabled title="Esporta (coming soon)">Esporta</button>
+        <button onClick={addTable} title="New table">+ Table</button>
+        <button disabled title="Export (coming soon)">Export</button>
       </div>
     </header>
   );

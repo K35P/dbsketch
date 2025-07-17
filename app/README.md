@@ -1,12 +1,41 @@
-# React + Vite
+# DBSketch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**DBSketch** is a visual tool for designing and prototyping relational database schemas directly in your browser. It allows you to create tables, define columns and types, set primary keys, and visually establish relationships between tables with an intuitive drag-and-drop interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Visual Table Creation:** Add, move, resize, and rename tables on a canvas.
+- **Column Management:** Add, edit, and remove columns; set data types and primary keys.
+- **Relationship Designer:** Create and manage relationships (1:1, 1:N, N:N) between tables visually.
+- **Sidebar Editing:** Edit table and relationship properties from a contextual sidebar.
+- **Modern UI:** Responsive and clean interface built with React and Vite.
+- **Export (coming soon):** Export your schema for use in other tools or as SQL.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Project Structure
+
+- `src/components/` – UI components (Canvas, TableCard, Sidebar, Toolbar, etc.)
+- `src/context/DatabaseContext.jsx` – State management for tables and relationships
+- `src/App.jsx` – Main application layout
+
+## Technologies
+
+- **React** (UI)
+- **Vite** (build tool)
+- **ESLint** (code quality)
+- **CSS** (styling)
+
+## License
+
+MIT
