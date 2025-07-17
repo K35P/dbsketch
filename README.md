@@ -2,6 +2,8 @@
 
 **DBSketch** is a visual tool for designing and prototyping relational database schemas directly in your browser. It allows you to create tables, define columns and types, set primary keys, and visually establish relationships between tables with an intuitive drag-and-drop interface.
 
+<img width="1237" height="824" alt="Screenshot 2025-07-17 alle 17 40 38" src="https://github.com/user-attachments/assets/e2ba7ce1-8dc5-41a7-bc6a-e1e83d9ae5fb" />
+
 ## Features
 
 - **Visual Table Creation:** Add, move, resize, and rename tables on a canvas.
