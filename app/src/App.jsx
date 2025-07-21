@@ -1,17 +1,17 @@
 import React from 'react';
-import Toolbar from './components/Toolbar';
+import './App.scss';
 import Sidebar from './components/Sidebar';
+import Toolbar from './components/Toolbar';
 import Canvas from './components/Canvas';
-import './App.css';
 
 export default function App() {
   return (
     <div className="app-root">
-      <Toolbar />
-      <div className="main-layout">
+      <div className="main-content">
+        <Toolbar />
         <Canvas />
-        <Sidebar />
       </div>
+      <Sidebar />
     </div>
   );
 }

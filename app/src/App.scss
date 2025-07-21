@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #ecf1f4 0%, #e8f6ff 50%, #e1e1e1 100%);
+}
+
+.app-root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.sidebar {
+  width: 240px;
+  background: rgba(255, 255, 255, 0.18);
+  color: #222b45;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border-right: 1.5px solid rgba(255,255,255,0.35);
+  border-radius: 18px 0 0 18px;
+  box-shadow: 2px 0 16px 0 rgba(30, 60, 90, 0.04);
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toolbar {
+  height: 64px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  z-index: 1;
+}
+
+.canvas {
+  flex: 1;
+  background: #e9ecf3;
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 24px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
