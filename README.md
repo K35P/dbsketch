@@ -27,19 +27,9 @@
    ```
 3. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Project Structure
-
-- `src/components/` – UI components (Canvas, TableCard, Sidebar, Toolbar, etc.)
-- `src/context/DatabaseContext.jsx` – State management for tables and relationships
-- `src/App.jsx` – Main application layout
-
 ## Technologies
 
 - **React** (UI)
 - **Vite** (build tool)
 - **ESLint** (code quality)
 - **CSS** (styling)
-
-## License
-
-MIT
