@@ -11,6 +11,44 @@ body {
   width: 100vw;
 }
 
+.app-root.dark {
+  background: #18191a;
+  color: #e4e6eb;
+}
+
+.app-root.dark .canvas {
+  background: #23272f;
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(211, 211, 211, 0.2) 1.5px, transparent 1.5px);
+}
+
+.app-root.dark .toolbar {
+  background: #23272f;
+  border-bottom: 1px solid #444950;
+}
+
+.app-root.dark .sidebar {
+  color: #e4e6eb;
+  background: #23272f;
+  border-left: 1px solid #444950;
+}
+
+.app-root.dark .main-content {
+  border-radius: 0.5rem;
+  border: 1px solid #444950;
+}
+
+.app-root.dark button, .app-root.dark .MuiButton-root {
+  background: #23272f;
+  color: #e4e6eb;
+  border: 1px solid #444950;
+}
+
+.app-root.dark .MuiButton-root:hover {
+  background: #2a2d34;
+  border-color: #5c6370;
+}
+
 .sidebar {
   width: 240px;
   background: rgba(255, 255, 255, 0.18);
@@ -20,8 +58,7 @@ body {
   padding: 24px 16px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  border-right: 1.5px solid rgba(255,255,255,0.35);
-  border-radius: 18px 0 0 18px;
+  border-left: 1px solid #dcdcdc;
   box-shadow: 2px 0 16px 0 rgba(30, 60, 90, 0.04);
 }
 
@@ -39,17 +76,12 @@ body {
   align-items: center;
   padding: 0 16px;
   z-index: 1;
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .canvas {
   flex: 1;
-  background: #e9ecf3;
-  margin: 16px;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
-  padding: 24px;
-  overflow: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: transparent;
+  background-image: radial-gradient(rgba(95, 95, 95, 0.2) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
 }
